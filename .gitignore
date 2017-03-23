@@ -1,0 +1,12 @@
+
+target/
+
+.classpath
+
+.settings/
+
+.project
+
+.metadata/
+
+pom.properties
