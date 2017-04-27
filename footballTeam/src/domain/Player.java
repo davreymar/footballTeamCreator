@@ -8,6 +8,7 @@ public class Player {
 	
 	private String name;
 	private PositionEnum positionPref;
+	private Characteristic characteristic;
 	
 	public String getName() {
 		return name;
@@ -21,6 +22,13 @@ public class Player {
 	public void setPositionPref(PositionEnum positionPref) {
 		this.positionPref = positionPref;
 	}
+	public Characteristic getCharacteristic() {
+		return characteristic;
+	}
+	public void setCharacteristic(Characteristic characteristic) {
+		this.characteristic = characteristic;
+	}
+	
 	
 	
 }
